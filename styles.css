@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nunito+Sans&display=swap');
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.center-text{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: large;
+}
+
+footer {
+    margin: 15px;
+}
+
+hr {
+    margin: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(205, 205, 205);
+}
+
+.profile img{
+    border-radius: 50%;
+    transition: 250ms;
+    box-shadow: 15px 15px 8px rgb(61, 61, 61);
+}
+
+.profile img:hover{
+    border-radius: 2%;
+    transition: 150ms;
+    width: 40%;
+    box-shadow: none;
+}
+
+.kontakt{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+iframe{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    box-shadow: 10px 10px 10px rgb(61, 61, 61);
+    margin-bottom: 20px;
+}
+
+.kontakt ul{
+    display: inline-block;
+    text-align: left;
+}
+
+.prev-projects{
+    display: flex;
+}
+
+.prev-projects ul{
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+
+.prev-projects img{
+    float: right;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.prev-projects a{
+    text-decoration: none;
+    color: red;
+}
+
+.prev-projects li{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: x-large;
+}
+
+.center-picture{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 35%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: 300ms;
+}
+
+.text-navigation{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.center-head{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    transition: 350ms;
+    color: black;
+    margin-bottom: 0;
+}
+
+.center-head:hover{
+    font-size: 55px;
+    transition: all;
+    transition: 350ms;
+    color: rgb(255, 127, 88);
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #dcdcdc;
+    text-align: center;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    width: 150px;
+    display: block;
+    padding: 18px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4a4a4a;
+    transition: 250ms;
+}
+
+.navbar a:hover{
+    background: #aeaeae;
+    color: #757575;
+    transition: 250ms;
+}
